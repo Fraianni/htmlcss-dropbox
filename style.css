@@ -1,0 +1,113 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+header {
+    height: 70px;
+    background-color: red;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.unico-posto {
+    height: 500px;
+    background-color: aqua;
+}
+
+.centered-in-section {
+    width: 80%;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.centered-in-section h1 {
+    font-size: 3.8rem;
+}
+
+.proposta-cliente {
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+
+.proposta-cliente p {
+    margin-right: 10px;
+}
+
+.proposta-cliente img {
+    width: 70%;
+}
+
+.piano-business {
+
+    margin: auto;
+    margin-top: 250px;
+    margin-bottom: 50px;
+}
+
+.piano-business h2 {
+    margin-bottom: 50px;
+}
+
+.radio {
+    margin-bottom: 30px;
+}
+
+.three-cards {
+    justify-content: space-between;
+}
+
+.ufficio-vendite {
+    text-align: center;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.partner img {
+    width: 50%;
+}
+
+.partner-text {
+    width: 30%;
+    margin: 50px 60px;
+}
+
+
+
+
+/* Utilities */
+.flex {
+    display: flex;
+}
+
+.header-margin {
+    margin: 0px 20px;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.width-70 {
+    width: 70%;
+}
+
+.margin-auto {
+    margin: auto;
+}
+
+/* end Utilities */
+
+/* debug */
+.border {
+    border: 1px solid black;
+
+}
+
+/* end debug */
