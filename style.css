@@ -9,25 +9,27 @@ body {
 }
 
 header {
-    height: 70px;
-    background-color: red;
+    height: 10vh;
+    width: 100%;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
 }
 
 .unico-posto {
-    height: 500px;
-    background-color: aqua;
+    margin-top: 80px;
+    background-color: #B4D0E7;
+    position: relative;
 }
 
 .centered-in-section {
     width: 80%;
     margin: auto;
-    padding-top: 50px;
+    padding-top: 40px;
 }
 
 .centered-in-section h1 {
-    font-size: 4.5rem;
+    font-size: 4.3rem;
 }
 
 .proposta-cliente {
@@ -36,13 +38,36 @@ header {
 }
 
 
-.proposta-cliente p {
-    margin-right: 10px;
+
+
+.unico-posto-text {
+    width: 40%;
 }
 
-.proposta-cliente img {
-    width: 70%;
+.jumbo-img {
+    width: 60%;
+
+
 }
+
+.jumbo-img img {
+    width: 100%;
+    height: 120%;
+}
+
+
+
+.first-prova-button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#down-arrow {
+    margin-top: 5px;
+    font-size: 5rem;
+}
+
+
 
 .piano-business {
 
@@ -50,6 +75,7 @@ header {
     margin-top: 250px;
     margin-bottom: 50px;
 }
+
 
 .piano-business h2 {
     margin-bottom: 50px;
@@ -59,8 +85,34 @@ header {
     margin-bottom: 30px;
 }
 
+label {
+    margin-right: 20px;
+}
+
+
 .three-cards {
     justify-content: space-between;
+}
+
+.three-cards>div {
+    width: calc(100% / 3 - 40px);
+}
+
+.offer-cards-title {
+    text-align: center;
+}
+
+.advanced {
+    margin: 0px 20px;
+}
+
+.internal-card {
+    width: 80%;
+    margin: auto;
+}
+
+.offer-type {
+    margin-bottom: 30px;
 }
 
 .ufficio-vendite {
@@ -231,6 +283,113 @@ header {
     background-color: #FFD830;
 }
 
+.prova-gratuita {
+    width: 100%;
+    background-color: #B4D0E7;
+    padding: 150px 0px;
+    justify-content: space-around;
+}
+
+.prova-gratuita-text {
+    width: 25%;
+    color: #863E2B;
+}
+
+.prova-gratuita-button>button {
+    padding: 5px 25px;
+    border: none;
+}
+
+.domande-frequenti {
+    padding: 80px 0px;
+}
+
+.domande-frequenti-title {
+    margin-bottom: 50px;
+}
+
+.domande-frequenti-options>div {
+    margin: 30px 0px;
+
+}
+
+.question1>.hover-text1 {
+    display: none;
+}
+
+.question1:hover .hover-text1 {
+    display: block;
+}
+
+.question2>.hover-text2 {
+    display: none;
+}
+
+.question2:hover .hover-text2 {
+    display: block;
+}
+
+.question3>.hover-text3 {
+    display: none;
+}
+
+.question3:hover .hover-text3 {
+    display: block;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    justify-content: space-around;
+    padding: 50px 100px 100px;
+}
+
+footer strong {
+    line-height: 50px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    line-height: 30px;
+}
+
+footer hr {
+    margin-top: 100px;
+}
+
+.user,
+.folder,
+.share {
+    margin-bottom: 50px;
+}
+
+.internal-button {
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.internal-button>button {
+    width: 100%;
+}
+
+.acquista-link {
+    margin-bottom: 20px;
+}
+
+.rule-internal-card {
+    width: 20%;
+    margin-bottom: 20px;
+}
+
+.last-internal-text {
+    margin-bottom: 200px;
+}
+
+.last-internal-text h5 {
+    line-height: 50px;
+}
+
 
 /* Utilities */
 .flex {
@@ -261,7 +420,17 @@ header {
     justify-content: center;
 }
 
+.blue-button {
+    padding: 10px;
+    background-color: #0061FF;
+    color: white;
+    border: none;
+}
 
+.icon {
+    width: 5%;
+    margin-right: 3px;
+}
 
 /* end Utilities */
 
