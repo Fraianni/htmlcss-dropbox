@@ -13,11 +13,35 @@ header {
     width: 100%;
     justify-content: space-between;
     align-items: center;
-    position: fixed;
 }
 
+header a {
+    margin: 0px 20px;
+    text-decoration: none;
+    color: gray;
+
+}
+
+.header-dx-side,
+.header-sx-side {
+    height: 30px;
+}
+
+.header-dx-side {
+    padding-top: 10px;
+}
+
+.header-button {
+    background-color: #0061FF;
+    color: white;
+    border: none;
+    padding: 1px 10px;
+
+}
+
+
 .unico-posto {
-    margin-top: 80px;
+    margin-top: 10px;
     background-color: #B4D0E7;
     position: relative;
 }
@@ -116,12 +140,36 @@ label {
 }
 
 .ufficio-vendite {
-    text-align: center;
-    margin: auto;
     margin-bottom: 50px;
 }
 
+.ufficio-vendite>h5 {
+    text-align: center;
+}
 
+.enterpriseANDbutton {
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+
+.enterprise {
+    width: 60%;
+}
+
+.enterprise>h5 {
+    margin-top: 20px;
+}
+
+.enterprise>p {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.partner {
+    margin: auto;
+    margin-top: 80px;
+
+}
 
 .partner img {
     width: 50%;
@@ -159,7 +207,7 @@ label {
     margin-top: 50px;
 }
 
-.link h4 {
+.link h2 {
     margin-bottom: 50px;
 }
 
@@ -408,6 +456,10 @@ footer hr {
     width: 70%;
 }
 
+.width-90 {
+    width: 90%;
+}
+
 .margin-auto {
     margin: auto;
 }
@@ -418,6 +470,10 @@ footer hr {
 
 .justify-center {
     justify-content: center;
+}
+
+.justify-left {
+    justify-content: flex-start;
 }
 
 .blue-button {
@@ -432,6 +488,14 @@ footer hr {
     margin-right: 3px;
 }
 
+.grey-button {
+    margin-top: 20px;
+    padding: 5px;
+    width: 60%;
+    background-color: white;
+
+}
+
 /* end Utilities */
 
 /* debug */
@@ -440,64 +504,7 @@ footer hr {
 
 }
 
+
+
+
 /* end debug */
-
-/* 
-.mosaico {
-    margin-top: 50px;
-}
-
-.un-terzo {
-    width: calc(100% / 3);
-}
-
-.first-col {
-    width: calc(50%);
-}
-
-.un-terzo img {
-    filter: invert(100%);
-}
-
-.designit,
-.florida {
-    padding: 80px 0px;
-}
-
-.designit {
-    background-color: #A2D39B;
-    justify-content: center;
-}
-
-.designit img {
-    width: 50%;
-}
-
-
-.florida {
-    background-color: #0093CE;
-    justify-content: center;
-}
-
-
-
-.asu {
-    justify-content: center;
-    background-color: #61082B;
-    padding: 62px 0px;
-}
-
-.asu img {
-    width: 50%;
-}
-
-.topps {
-    justify-content: center;
-    background-color: #FF1C1C;
-    padding: 80px 0px;
-}
-
-.topps img {
-    width: 50%;
-}
- */
