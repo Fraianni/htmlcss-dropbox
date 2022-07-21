@@ -147,6 +147,12 @@ label {
     text-align: center;
 }
 
+
+.ufficio-vendite>p {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
 .enterpriseANDbutton {
     justify-content: space-between;
     padding: 10px 0px;
@@ -160,10 +166,6 @@ label {
     margin-top: 20px;
 }
 
-.enterprise>p {
-    margin-top: 50px;
-    margin-bottom: 20px;
-}
 
 .partner {
     margin: auto;
